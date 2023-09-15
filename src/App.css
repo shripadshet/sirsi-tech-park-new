@@ -32,19 +32,290 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.main{
+
+.main {
+  justify-content: center;
+}
+
+.left {
+  width: 20%;
+  height: 50%;
+}
+
+.right {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 44px;
+}
+
+.form {
+  padding: 10px;
+  margin-left: 600px;
+  width: 200px;
+}
+
+.container {
+  padding: 10px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+button {
+  background-color: #221a47;
+  color: white;
+  margin: 10px;
+
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 1px;
+}
+
+body {
+  background-color: rgb(0, 0, 32);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(28, 28, 139);
+  height: 150px;
+}
+
+main hr {
+  border: 0;
+  background: #1a2b6a;
+  height: 1.2px;
+  margin: 38px 84px;
+}
+
+nav ul {
   display: flex;
   justify-content: center;
 }
-.left{
-  width: 20%;
-  height: 50%;
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
 }
-.right{
-  width: 20%;
-  height: 50%;
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
+
+nav ul li a:hover {
+  font-size: 1.1rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  height: 370px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+.external {
+  display: flex;
+  height: 370px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+.externalLeft {
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: 250px;
+  justify-content: space-evenly;
+}
+.externalRight{
+  margin-top: 40px;
+  width: 700px;
+  height: 450px;
+}
+.externalRight img {
+  margin-top: 40px;
+  width: 700px;
+  height: 450px;
+}
+
+.externalFooter{
+margin-top: 300px;
+
+}
+.leftSection {
+  font-size: 1rem;
+  padding: 5px;
+ margin-top: 50px;
+ width: 500px;
+}
+
+.rightSection img {
+  margin-top: 70px;
+  width: 700px;
+  height: 450px;
+}
+
+.purple {
+  color: blueviolet;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.secondSection .box {
+  background: white;
+  height: 2px;
+  margin: 56px 0px;
+  width: 80vw;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 90px;
+  width: 1px;
+  background-color: white;
+  margin: auto;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -27px;
+  left: -9px;
+}
+
+.vertcalTitle {
+  position: relative;
+  top: 70px;
+  left: -22px;
+  width: 152px;
+}
+
+.verticalDesc {
+  position: relative;
+  top: 66px;
+  width: 150px;
+  color: gray;
+  font-size: 9px;
+  left: -21px;
+}
+
+footer {
+  background-color: #0e0e1a;
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+  height: 60px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer ul li {
+  margin: 10px;
+}
+
+.footer>div {
+  width: 223px;
+}
+
+footer .footerrights {
+  text-align: center;
+  color: gray;
+  padding: 12px;
+}
+
+.myDiv {
+  width: 800px;
+  display: none;
+  text-align: center;
+}
+
+.myDiv img {
+  width: 205px;
+  height: 80px;
+  margin-right: 80%;
+  margin-bottom: -30%;
+}
+
+#showOne {
+  color: white;
+  padding: 10px;
+}
+
+#showTwo {
+  color: white;
+  padding: 10px;
+}
+
+#showThree {
+  color: red;
+  padding: 10px;
+}
+
+.EditBank {
+  margin-top: 50px;
+}
+
+.addForm {
+  margin-top: 10px;
+  margin-left: 50%;
+}
+
+.drawes {
+  width: 80%;
+  background-color: #8a0557;
+}
+
+.leftDrawer {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
